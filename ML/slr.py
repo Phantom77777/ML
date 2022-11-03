@@ -2,7 +2,8 @@ import numpy as np
 from sklearn.linear_model import LinearRegression
 import matplotlib.pyplot as plt
 import pandas as pd
-
+import matplotlib.pyplot as plt
+from sklearn.linear_model import LinearRegression
 data = pd.read_csv('https://raw.githubusercontent.com/selva86/datasets/master/BostonHousing.csv')
 
 plt.scatter(data.rm, data.medv)
